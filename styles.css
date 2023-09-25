@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e56b6f;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/*-- Nav --*/
+
+#logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+ol li {
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #9a031e;
+}
+
+.navbar-brand {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+}
+
+/*-- Carousel --*/
+
+#cuadro1 {
+    height: 800px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100px;
+}
+
+#cuadro2 {
+    color: white;
+    height: 500px;
+    width: 500px;
+    text-align: right;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+}
+
+.imagenescarousel {
+    height: 800px;
+    width: 100%;
+}
+
+#boton1 {
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+#boton2 {
+    background-color: #9a031e;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+/*-- Cards --*/
+
+.card {
+    margin: 40px;
+    margin-top: 10px;
+}
+
+.botoncard {
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 7px;
+    background-color: #9a031e;
+    color: white;
+    width: 80px;
+}
+
+/*-- Banner --*/
+
+#Honolulu {
+    height: 450px;
+    width: 800px;
+}
+
+#Banner {
+    background-color: #9a031e;
+    color: white;
+    height: 450px;
+    width: 800px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+#Conoce {
+    background-color: #9a031e;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 2px;
+}
+
+#Banner2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*-- Form --*/
+
+#Formulario {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 20px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+input:focus {
+    background-color: rgb(165, 241, 169);
+    color: black;
+}
+
+textarea {
+    width: 635px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+
+textarea:focus {
+    background-color: rgb(165, 241, 169);
+    color: black;
+}
+
+#Enviar {
+    width: 650px;
+    height: 50px;
+    color: white;
+    background-color: #2da72d;
+    border-radius: 8px;
+}
+
+/*-- Footer --*/
+
+footer {
+    background-color: #9a031e;
+    color: white;
+    padding-top: 30px;
+    margin-top: 20px;
+    height: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Foot1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#division {
+    background-color: white;
+    border-color: white;
+    height: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Foot2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#Contactame {
+    margin-right: 50%;
+}
